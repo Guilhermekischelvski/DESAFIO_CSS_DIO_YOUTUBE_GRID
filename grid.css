@@ -1,0 +1,88 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 10px;
+}
+.notification{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100px;
+}
+.logo{
+    height: 30px;
+    margin-right: 200px;
+}
+.perfil, i{
+    height: 30px;
+    border-radius: 50%;
+}
+.search {
+    display: flex;
+    align-items: center;
+}
+input{
+    width: 400px;
+}
+#pesq{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.notification i{
+    vertical-align: middle;  
+    display: flex;
+    align-items: center;  
+}
+main{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 500px;
+    margin-top: 30px;
+    
+}
+.barralateral{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 30px;
+}
+.item i {
+    margin-right: 20px;
+}
+figcaption{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+figcaption img{
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    font-size: 15px;
+    row-gap: 10px;
+}
+img .foto {
+    height: 300px;
+}
+figure{
+    margin: 0px;
+    width: 230px;
+}
+testedes{
+    display: flex;
+    flex-direction: column;
+}
+#foto, #foto2, #foto3, #foto4{
+    height: 130px;
+}
